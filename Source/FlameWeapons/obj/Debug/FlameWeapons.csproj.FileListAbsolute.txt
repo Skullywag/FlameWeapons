@@ -1,0 +1,5 @@
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\FlameWeapons\Source\FlameWeapons\bin\Debug\FlameWeapons.dll
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\FlameWeapons\Source\FlameWeapons\bin\Debug\FlameWeapons.pdb
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\FlameWeapons\Source\FlameWeapons\obj\Debug\FlameWeapons.csprojResolveAssemblyReference.cache
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\FlameWeapons\Source\FlameWeapons\obj\Debug\FlameWeapons.dll
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\FlameWeapons\Source\FlameWeapons\obj\Debug\FlameWeapons.pdb
