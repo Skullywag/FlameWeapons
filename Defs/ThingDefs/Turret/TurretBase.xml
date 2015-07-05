@@ -67,7 +67,6 @@
       <turretBurstCooldownTicks>400</turretBurstCooldownTicks>
       <turretTopgraphicPath>Things/Building/FlameTurretGun</turretTopgraphicPath>
     </building>
-    <designationHotKey>U</designationHotKey>
   </ThingDef>
 
 </ThingDefs>
