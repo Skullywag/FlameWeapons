@@ -17,7 +17,7 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>1</DeteriorationRate>
+      <DeteriorationRate>2</DeteriorationRate>
       <SellPriceFactor>0.5</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
@@ -31,19 +31,16 @@
       <li>ITab_Art</li>
     </inspectorTabs>
     <comps>
-      <li>
-        <compClass>CompForbiddable</compClass>
-      </li>
+      <li Class="CompProperties_Forbiddable"/>
       <li>
         <compClass>CompEquippable</compClass>
       </li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
-      <li>
-        <compClass>CompArt</compClass>
-        <nameMaker>NamerGun</nameMaker>
-        <descriptionMaker>ArtWeaponGun</descriptionMaker>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
@@ -52,7 +49,27 @@
     </smeltProducts>
   </ThingDef>
 
+  <ThingDef Name="BaseMakeableGun" ParentName="BaseGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <soundInteract>EnergyPickup</soundInteract>
+  </ThingDef>
+
+  <ThingDef Name="BaseHumaMakeablenGun" ParentName="BaseMakeableGun" Abstract="True">
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
@@ -90,7 +107,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanGun">
+  <ThingDef ParentName="BaseHumaMakeablenGun">
     <defName>Gun_FlameThrower</defName>
     <label>Flame thrower</label>
     <description>A compact flamethrower, able to fire jets of flammable liquid.</description>
@@ -106,6 +123,11 @@
       <AccuracyLong>0.11</AccuracyLong>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Steel>90</Steel>
+      <Components>4</Components>
+      <NapalmCannister>1</NapalmCannister>
+    </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

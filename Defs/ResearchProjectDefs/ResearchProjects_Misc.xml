@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+ 
+	<ResearchProjectDef>
+		<defName>FlameTurret</defName>
+		<label>large scale incendiary tech</label>
+		<description>Allows the construction of flamer turrets.</description>
+		<totalCost>1500</totalCost>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+	</ResearchProjectDef>
+
+</ResearchProjectDefs>

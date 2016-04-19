@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
 
-
   <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <label>unspecified resource</label>
@@ -27,10 +26,10 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>NapalmCannister</defName>
-    <label>Napalm Cannister</label>
-    <description>A cannister of Flammable liquid.</description>
+    <label>Napalm Cannisters</label>
+    <description>A box of cannisters containing Flammable liquid.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/NapalmCannister</texPath>
+      <texPath>Things/Item/Resource/Flamebox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
