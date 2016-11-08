@@ -62,7 +62,7 @@
       <explosionRadius >2.1</explosionRadius >
       <damageDef>Flame</damageDef>
       <damageAmountBase>20</damageAmountBase>
-      <postExplosionSpawnThingDef>Puddle_Fuel</postExplosionSpawnThingDef>
+      <postExplosionSpawnThingDef>FilthFuel</postExplosionSpawnThingDef>
     </projectile>
   </ThingDef>
 
@@ -76,7 +76,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractGrenade</soundInteract>
-    <techLevel>Midworld</techLevel>
+    <techLevel>Industrial</techLevel>
     <statBases>
       <MarketValue>500</MarketValue>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>

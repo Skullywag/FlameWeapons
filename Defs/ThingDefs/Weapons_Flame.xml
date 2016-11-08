@@ -23,7 +23,7 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
-    <techLevel>Midworld</techLevel>
+    <techLevel>Industrial</techLevel>
     <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
@@ -102,7 +102,7 @@
       <damageDef>Flame</damageDef>
       <damageAmountBase>2</damageAmountBase>
       <speed>20</speed>
-      <postExplosionSpawnThingDef>Puddle_Fuel</postExplosionSpawnThingDef>
+      <postExplosionSpawnThingDef>FilthFuel</postExplosionSpawnThingDef>
       <explosionSpawnChance>0.7</explosionSpawnChance>
     </projectile>
   </ThingDef>
@@ -125,7 +125,7 @@
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Components>4</Components>
+      <Component>4</Component>
       <NapalmCannister>1</NapalmCannister>
     </costList>
     <verbs>

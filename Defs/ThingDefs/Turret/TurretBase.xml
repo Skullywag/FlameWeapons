@@ -22,7 +22,7 @@
       <drawSize>(3,3)</drawSize>
     </graphicData>
     <uiIconPath>Things/Building/FlameTurretUI</uiIconPath>
-    <altitudeLayer>Waist</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>110</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -56,7 +56,7 @@
     <costList>
       <Steel>75</Steel>
       <NapalmCannister>3</NapalmCannister>
-      <Components>3</Components>
+      <Component>2</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
