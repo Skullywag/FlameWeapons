@@ -18,12 +18,13 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
+			<Beauty>-6</Beauty>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
+		<smeltable>true</smeltable>
     <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
@@ -44,9 +45,6 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-    <smeltProducts>
-      <Steel>20</Steel>
-    </smeltProducts>
   </ThingDef>
 
   <ThingDef Name="BaseMakeableGun" ParentName="BaseGun" Abstract="True">
@@ -61,15 +59,15 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
-
-  <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+  
+   <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
     <soundInteract>EnergyPickup</soundInteract>
   </ThingDef>
-
-  <ThingDef Name="BaseHumaMakeablenGun" ParentName="BaseMakeableGun" Abstract="True">
+  
+  <ThingDef Name="BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
@@ -107,7 +105,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumaMakeablenGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_FlameThrower</defName>
     <label>Flame thrower</label>
     <description>A compact flamethrower, able to fire jets of flammable liquid.</description>
@@ -133,7 +131,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_FlameThrower</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>3.0</warmupTime>
         <range>15</range>
         <burstShotCount>20</burstShotCount>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>

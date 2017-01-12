@@ -3,7 +3,7 @@
  
 	<ResearchProjectDef>
 		<defName>FlameTurret</defName>
-		<label>large scale incendiary tech</label>
+		<label>large scale incendiary cannisters</label>
 		<description>Allows the construction of flamer turrets.</description>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>

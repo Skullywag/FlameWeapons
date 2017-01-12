@@ -26,7 +26,7 @@
     <statBases>
       <MaxHitPoints>110</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>2500</WorkToMake>
+      <WorkToBuild>2500</WorkToBuild>
       <Beauty>-60</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -64,7 +64,7 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_FlameTurret</turretGunDef>
-      <turretBurstCooldownTicks>400</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>400</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/FlameTurretGun</turretTopgraphicPath>
     </building>
     <researchPrerequisites>

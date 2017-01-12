@@ -14,11 +14,11 @@ namespace FlameWeapons
             }
             else
             {
-                GenSpawn.Spawn(ThingDef.Named("FilthFuel"), base.Position);
-                FireUtility.TryStartFireIn(base.Position, 0.2f);
+                GenSpawn.Spawn(ThingDef.Named("FilthFuel"), Position, Map);
+                FireUtility.TryStartFireIn(Position, Map, 0.2f);
             }
-            MoteMaker.MakeStaticMote(this.Position, ThingDefOf.Mote_ShotFlash, 6f);
-            MoteMaker.ThrowMicroSparks(base.Position.ToVector3Shifted());
+            MoteMaker.MakeStaticMote(Position, Map, ThingDefOf.Mote_ShotFlash, 6f);
+            MoteMaker.ThrowMicroSparks(Position.ToVector3Shifted(), Map);
         }
     }
 }

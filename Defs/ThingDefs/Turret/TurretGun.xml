@@ -43,7 +43,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_FlameTurret</projectileDef>
-        <warmupTicks>20</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <range>22</range>

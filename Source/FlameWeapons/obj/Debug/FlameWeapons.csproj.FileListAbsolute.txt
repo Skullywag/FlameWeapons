@@ -38,3 +38,14 @@ C:\Users\mjsku\Desktop\RimWorldAlpha15cWin\RimWorld1284Win\Mods\FlameWeapons\Sou
 C:\Users\mjsku\Desktop\RimWorldAlpha15cWin\RimWorld1284Win\Mods\FlameWeapons\Source\FlameWeapons\obj\Debug\FlameWeapons.csprojResolveAssemblyReference.cache
 C:\Users\mjsku\Desktop\RimWorldAlpha15cWin\RimWorld1284Win\Mods\FlameWeapons\Source\FlameWeapons\obj\Debug\FlameWeapons.dll
 C:\Users\mjsku\Desktop\RimWorldAlpha15cWin\RimWorld1284Win\Mods\FlameWeapons\Source\FlameWeapons\obj\Debug\FlameWeapons.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\FlameWeapons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\FlameWeapons.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\UnityEngine.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\bin\Debug\UnityEngine.xml
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\obj\Debug\FlameWeapons.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\obj\Debug\FlameWeapons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FlameWeapons-A16\Source\FlameWeapons\obj\Debug\FlameWeapons.pdb
